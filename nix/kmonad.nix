@@ -10,7 +10,7 @@ mkDerivation {
   isExecutable = true;
   libraryHaskellDepends = [
     base cereal lens megaparsec mtl optparse-applicative resourcet rio
-    time unix unliftio
+    time unix unliftio githash
   ];
   executableHaskellDepends = [ base ];
   doHaddock = false;
